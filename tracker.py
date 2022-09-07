@@ -2,7 +2,7 @@ import requests
 
 
 def get_prices():
-    name = "NAME OF PROJECT"
+    name = "Pitbull"
 
     crypto_data = requests.get("https://api.pancakeswap.info/api/tokens").json()["data"]
 
